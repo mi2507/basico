@@ -1,0 +1,146 @@
+html {
+    scroll-behavior: smooth;
+}
+body{
+    background-image: url("./img/fundo2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.card-nav{
+    height: 110px;
+    width: 100%;
+}
+
+ .nav-link{
+    text-align: center;
+    margin-top: 10px; 
+    font-size: 22px;    
+} 
+
+.banner{
+    height: 300px;
+    width: 100%;
+}
+
+a{
+    text-align: center;
+}
+
+h1 , h6 ,h4{
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Lobster', cursive;
+    font-family: 'Literata', serif;
+    color: yellowgreen;
+      
+}
+
+h2 , h3 {
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Lobster', cursive;
+    font-family: 'Literata', serif;
+    color: black;
+    font-size: 30 px;
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: bold,
+}
+
+
+
+h5 { font-family: 'Indie Flower', cursive;
+    font-family: 'Lobster', cursive;
+    font-family: 'Literata', serif;
+    color: black;
+    font-size: 20px;
+    margin-top: 20px;
+
+}
+
+p{font-family: 'Indie Flower', cursive;
+    font-family: 'Lobster', cursive;
+    font-family: 'Literata', serif;
+    color: black;
+    font-size: 18px;
+
+}
+
+.card{
+    background-color: transparent;
+    border: none;
+}
+
+.card-group{
+      margin-top: 20px;
+      margin-bottom: 20px;
+}
+
+  
+.div{
+margin-top: 20px;
+color:#EEC900;
+font-size: 18px;
+width: 100%;
+height: 60px;
+background:	#363636;
+-webkit-transition: width 3s; 
+ transition: width 3s;
+}
+  
+.div:hover {
+    width: 320px;
+}
+ 
+#skills {
+     grid-area: skills;
+     display: flex; 
+     flex-direction: column;
+    align-items: flex-start;
+    margin-left: 0px;
+    margin-right: 80px;
+}  
+
+
+#skills-list {
+    min-height: calc(60% - 30vh);
+    width: 100%;
+    padding: 1vh 2vw;
+  
+}
+
+#skills h2{
+    margin-bottom: 6vh;
+}
+
+.points, .skill {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    font: bold;
+    color: black;
+    font-weight: bold;
+}
+.point {
+    border: 2px solid #363636;
+    border-radius: 60%;
+    height: 0.5rem;
+    width: 0.5rem;
+    margin-left: 0.5rem;
+}
+.has-point {
+    background-color: #363636;
+}
+
+.footer{
+    background-attachment:relative;
+    background-color: 	#363636;
+    margin-top: 20px;
+}
+
+.btn{
+    scroll-behavior: smooth;
+    background-color: yellowgreen;
+    border: none;
+}
+
